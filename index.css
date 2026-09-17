@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#btns{
+    display: flex;
+   
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.red{
+    background-color: #f99b45;
+}
+.green{
+    background-color: #d95980;
+
+}
+.blue{
+    background-color: #819ff9;
+}
+.yellow{
+    background-color: #63aac0;
+}
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
